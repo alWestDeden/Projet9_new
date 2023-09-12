@@ -189,7 +189,8 @@ body {
 	background-color: white;
 	max-width: 390px;
 	width: 30%;
-	height: 337px;
+	/* height removed to keep layout when user zooms */
+	/* height: 337px; */
 	padding: 1em;
 	display: flex;
 	flex-direction: column;
