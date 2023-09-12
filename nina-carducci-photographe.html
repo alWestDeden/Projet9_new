@@ -4,19 +4,19 @@
 <head>
 	<!-- added a title, a meta description and a meta keywoords -->
 	<meta charset="UTF-8">
-	<title>Nina Caducci, Photographe</title>
-	<meta name="description" content="Une presentation de mon travail de photographe. Une grille des tarifs et un formulaire de contact">
-	<meta name="keywords" content="photographe, photographie, évènement, edition, traitement, portfolio, tarifs, caducci">
+	<title>Nina Caducci, Photographe à Bordeaux</title>
+	<meta name="description" content="Une presentation de mon travail de photographe. Une grille des tarifs, un formulaire de contact et mes coordonnées à Bordeaux">
+	<meta name="keywords" content="photographe, photographie, évènement, edition, traitement, portfolio, tarifs, Bordeaux">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="./assets/bootstrap/bootstrap.min.css">
 	<link rel="stylesheet" href="./assets/style.min.css">
 	<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 </head>
-<body>
+<body itemscope itemtype=”http://schema.org/LocalBusiness”>
 	<!-- replaced a div for a header -->
 <header class="top-header">
 	<!-- replaced a h3 for a h1 and added a keyword -->
-	<h1 class="name">Nina Carducci, Photographe</h1>
+	<h1 class="name" itemprop="name">Nina Carducci, Photographe</h1>
 		<!-- replaced a div for a nav -->
 	<nav class="nav">   
 		<ul>
@@ -36,7 +36,6 @@
 <!-- added a main section -->
 <main>
 	<div id="header">
-	
 		<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
 			<div class="carousel-indicators">
 				<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -47,20 +46,20 @@
 				<!-- added a WebP version and an alt description for all images -->
 				<div class="carousel-item active">
 					<picture>
-						<source srcset="./assets/images/slider/pieton-1920w.webp" type="image/webp">
-						<img src="./assets/images/slider/pieton-1920w.jpg" class="d-block w-100" width="1920" height="888" alt="un homme traverse un passage piéton">
+						<source srcset="./assets/images/slider/pieton.webp" type="image/webp">
+						<img src="./assets/images/slider/pieton.jpg" class="d-block w-100" width="1920" height="888" alt="un homme traverse un passage piéton" itemprop="image">
 					</picture>
 				</div>
 				<div class="carousel-item">
 					<picture>
-						<source srcset="./assets/images/slider/foule-1920w.webp" type="image/webp">
-						<img fetchpriority="low" src="./assets/images/slider/foule-1920w.jpg" class="d-block w-100" width="1920" height="888" alt="gros plan sur un publique de jeunes adultes en joie qui acclame">
+						<source srcset="./assets/images/slider/foule.webp" type="image/webp">
+						<img fetchpriority="low" src="./assets/images/slider/foule.jpg" class="d-block w-100" width="1920" height="888" alt="gros plan sur un publique de jeunes adultes en joie qui acclame" itemprop="image">
 					</picture>
 				</div>
 				<div class="carousel-item">
 					<picture>
-						<source srcset="./assets/images/slider/mariés-1920w.webp" type="image/webp">
-						<img fetchpriority="low" src="./assets/images/slider/mariés-1920w.jpg" class="d-block w-100" width="1920" height="888" alt="des mariés s'embrasse au milieu d'un cercle d'invités">
+						<source srcset="./assets/images/slider/mariés.webp" type="image/webp">
+						<img fetchpriority="low" src="./assets/images/slider/mariés.jpg" class="d-block w-100" width="1920" height="888" alt="des mariés s'embrasse au milieu d'un cercle d'invités" itemprop="image">
 					</picture>
 				</div>
 			</div>
@@ -100,15 +99,15 @@
 		<div class="container py-3">
 			<div class="gallery" style="display: none">
 				<!-- added a WebP version and an alt description for all images -->
-				<img data-gallery-tag="Concert" width="466" height="621"  class="gallery-item" src="./assets/images/gallery/concerts/concert-1.jpg" alt="concert et jeu de lumière vu depuis la foule">
-				<img data-gallery-tag="Entreprises" width="466" height="669" class="gallery-item" src="./assets/images/gallery/entreprise/entreprise-1.jpg" alt="portrait d'un cadre en costume">
-				<img data-gallery-tag="Entreprises" width="650" height="440" class="gallery-item" src="./assets/images/gallery/entreprise/entreprise-2.jpg" alt="une employée sourrit à un collègue hors champ">
-				<img data-gallery-tag="Mariages" width="550" height="440" class="gallery-item" src="./assets/images/gallery/mariage/marriage-1.jpg" alt="gros plan sur les mains des mariés qui s'attrapent du bout des doigts">
-				<img data-gallery-tag="Portrait" width="466" height="698" class="gallery-item" src="./assets/images/gallery/portraits/portrait-1.jpg" alt="portrait d'un homme qui ferme les yeux">
-				<img data-gallery-tag="Mariages" width="466" height="699" class="gallery-item" src="./assets/images/gallery/mariage/marriage-2.jpg" alt="portrait de mariés complices devant un palmier">
-				<img data-gallery-tag="Portrait" width="466" height="700" class="gallery-item" src="./assets/images/gallery/portraits/portrait-2.jpg" alt="portrait d'une jeune femme derrière un grillage">
-				<img data-gallery-tag="Concert" width="660" height="440" class="gallery-item" src="./assets/images/gallery/concerts/concert-2.jpg" alt="gros plan sur un chanteur sur scène avec jeu de fumées">
-				<img data-gallery-tag="Entreprises" width="719" height="440" class="gallery-item" src="./assets/images/gallery/entreprise/entreprise-3.jpg" alt="une employée devant son ordinateur rit à un collègue hors champ">
+				<img data-gallery-tag="Concert" width="466" height="621"  class="gallery-item" src="./assets/images/gallery/concerts/concert-1.jpg" alt="concert et jeu de lumière vu depuis la foule" itemprop="image">
+				<img data-gallery-tag="Entreprises" width="466" height="669" class="gallery-item" src="./assets/images/gallery/entreprise/entreprise-1.jpg" alt="portrait d'un cadre en costume" itemprop="image">
+				<img data-gallery-tag="Entreprises" width="650" height="440" class="gallery-item" src="./assets/images/gallery/entreprise/entreprise-2.jpg" alt="une employée sourrit à un collègue hors champ" itemprop="image">
+				<img data-gallery-tag="Mariages" width="550" height="440" class="gallery-item" src="./assets/images/gallery/mariage/marriage-1.jpg" alt="gros plan sur les mains des mariés qui s'attrapent du bout des doigts" itemprop="image">
+				<img data-gallery-tag="Portrait" width="466" height="698" class="gallery-item" src="./assets/images/gallery/portraits/portrait-1.jpg" alt="portrait d'un homme qui ferme les yeux" itemprop="image">
+				<img data-gallery-tag="Mariages" width="466" height="699" class="gallery-item" src="./assets/images/gallery/mariage/marriage-2.jpg" alt="portrait de mariés complices devant un palmier" itemprop="image">
+				<img data-gallery-tag="Portrait" width="466" height="700" class="gallery-item" src="./assets/images/gallery/portraits/portrait-2.jpg" alt="portrait d'une jeune femme derrière un grillage" itemprop="image">
+				<img data-gallery-tag="Concert" width="660" height="440" class="gallery-item" src="./assets/images/gallery/concerts/concert-2.jpg" alt="gros plan sur un chanteur sur scène avec jeu de fumées" itemprop="image">
+				<img data-gallery-tag="Entreprises" width="719" height="440" class="gallery-item" src="./assets/images/gallery/entreprise/entreprise-3.jpg" alt="une employée devant son ordinateur rit à un collègue hors champ" itemprop="image">
 			</div>
 		</div>
 		<!-- replaced a div for an aside -->
@@ -134,7 +133,7 @@
 					<p>Pour capturer vos moments les plus précieux et garder un souvenir impérissable. Je me déplace en Île-de-France pour réaliser vos photos</p>
 				</div>
 				<div class="service__price">
-					<h4>350€/demi journée</h4>
+					<h4 itemprop="priceRange">350€/demi journée</h4>
 					<span>Matériel, déplacement inclus</span>
 				</div>
 	
@@ -146,7 +145,7 @@
 					<p>Vous souhaitez retoucher vos photos pour un résultat professionnel ? Bénéficier d’un rendu optimal pour vos publications</p>
 				</div>
 				<div class="service__price">
-					<h4>50€/photo</h4>
+					<h4 itemprop="priceRange">50€/photo</h4>
 					<span>2 AR par photo</span>
 				</div>
 			</article>
@@ -157,7 +156,7 @@
 					<p>Partagez avec vos proches et vos clients les photos des moments partagés ensemble à travers un album photo personnalisé</p>
 				</div>
 				<div class="service__price">
-					<h4>400€ album A4</h4>
+					<h4 itemprop="priceRange">400€ album A4</h4>
 					<span>30 pages recto/verso</span>
 				</div>
 			</article>
@@ -177,7 +176,7 @@
 	<section id="contact">
 		<div class="container">
 			<div class="form-container">
-				<h3>Une question ? Une demande de devis ?</h3>
+				<h4>Une question ? Une demande de devis ?</h4>
 				<p> N’hésitez pas à m’écrire ! Je vous répondrais en moins de 24 heures</p>
 				<form action="#" method="post">
 					<label for="nom">Nom</label>
@@ -199,17 +198,25 @@
 	</section>
 </main>
 <!-- added a footer with an adress info -->
-<footer id="top-header">
-	<p>68 avenue Alsace-Lorraine</p>
-	<p>33200 Bordeaux</p>
-	<p>Disponible du lundi au vendredi de 10h à 19h au :</p>
-	<p>05 56 67 78 89</p>
+<footer>
+	<h2 itemprop="name">Nina Carducci, Photographe</h2>
+	<div class="infos">
+		<article class="location" itemprop="address" itemscope itemtype="https://schema.org/PostalAddress">
+			<p itemprop="streetAddress">68 avenue Alsace-Lorraine</p>
+			<span itemprop="postalCode">33200</span><span> </span><span itemprop=”addressLocality”>Bordeaux</span>
+		</article>
+		<article class="phone">
+			<time itemprop="openingHours" datetime="Mo-Fr 10:00-19:00">Disponible du lundi au vendredi</time>
+			<p>de 10h à 19h au :</p>
+			<strong itemprop="telephone">05 56 67 78 89</strong>
+		</article>
+	</div>
 </footer>
 <script src="./assets/bootstrap/bootstrap.bundle.min.js"></script>
 <script src="./assets/scripts.js"></script>
 <script src="./assets/maugallery.js"></script>
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<!-- <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap"> -->
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap">
 </body>
 </html>
