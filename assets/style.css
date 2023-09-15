@@ -289,6 +289,9 @@ footer .infos .phone {
 	#about-me h6, #about-me p {
 		width: 100%;
 	}
+	.about-me__introduction {
+		display: inline;
+	}
 }
 
 @media all and (max-width: 1000px) {
